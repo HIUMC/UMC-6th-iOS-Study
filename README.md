@@ -2,31 +2,21 @@
 💻 Git clone 및 Branch 생성
 노션의 1,2주차 세션에서 깃 관련 내용을 참고해주세요 :)
 
+git init // 저장소 생성
+git remote -v https://github.com/HIUMC/BreadcrumbsUMC-6th-iOS-Study.git //저장소 내 컴퓨터 <-> 원격 연결
+git pull origin main
+terminal에서 자신의 branch로 checkout을 해주세요
+git checkout origin [본인 github 아이디] //브랜치 개념 모른다면 구글링. 자신만의 공간을 만든다고 생각하시면 됩니다.
+작업은 해당 본인 branch에서만 진행해주세요 (❌main branch❌)
+git branch : 현재 branch 확인
+위의 방식이 어렵다면 깃 Clone 하는 방법을 검색해보기
+
+
 🏡 작업공간 생성
 UMC-6th-iOS-Study (프로젝트 루트 디렉토리)
 본인 github 아이디명의 디렉토리 (본인 github 아이디로 설정해주세요!)
 해당 주차 혹은 워크북명 (ex. week1, platform)
-본인 github 아이디명의 디렉토리부터 만들고 시작하시면 됩니다! 😊 (아래는 예시이므로 하위 디렉토리 이름은 다르게 하셔도 됩니다.)
-
-│
-├─ UMC-5th-iOS-Study
-│     │
-│     ├─ generalban (dir)
-│     │     │ 
-|     |     ├─ Udemy - iOS & Swift - The Complete iOS App Development Bootcamp
-|     |     |    └─ README.md
-|     |     |
-│     │     ├─  워크북 미션
-│     │     │    ├─ README.md // 해당 강의 정리한 내용이 담긴 파일
-│     │     │    ├─ week1
-│     │     │    ├─ week2
-│     │     │    ├─ week3
-│     │     │    ├─ week4
-│     │     │    ├─ week5
-│     │     │    ├─ week6
-│     │     │    └─ week7
-│     │     │
-
+본인 github 아이디명의 디렉토리부터 만들고 시작하시면 됩니다! 😊 
 
 ### 💾 중간 중간 commit 하기
 * 파트 별로 작업을 끝냈거나 더 작은 단위로 작업을 끝낼 때 마다 commit을 해 주는 게 좋아요
@@ -60,7 +50,7 @@ UMC-6th-iOS-Study (프로젝트 루트 디렉토리)
 * 해당 주차의 강의를 듣거나 작업을 모두 끝냈다면, 프로젝트 변경 사항을 remote repository(github repository)에 push 합니다
     * ```git push origin [본인 github 아이디 브랜치 명]``` : git에 등록되어 있는 origin(github repository)에 있는 자신의 branch로 프로젝트의 변경 사항을 반영합니다
 * push를 완료했다면 스터디 repository에서 pull request를 진행합니다
-    * 링크: https://github.com/HIUMC/UMC-5th-iOS-Study/pulls
+    * 링크: https://github.com/HIUMC/UMC-6th-iOS-Study/pulls
 * PR(Pull Request)시 메세지 제목은 다음과 같이 ```[이름/닉네임] 1주차 정리내용 제출.``` 라고 적은 후 ```create pull request``` 버튼을 눌러주세요
 * PR : ```base: [master]``` <- ```compare: [본인 github 아이디]```
 
