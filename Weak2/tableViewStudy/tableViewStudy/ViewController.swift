@@ -14,7 +14,7 @@ protocol ChangeLabelDelegate{
 class ViewController: UIViewController {
 
     @IBOutlet weak var changedLabel: UILabel!
-    
+    // commit test
     @IBAction func buttonToNextVC(_ sender: UIButton) {
         guard let nextVC = storyboard?.instantiateViewController(withIdentifier: "secondViewController") as? secondViewController else {return}
         nextVC.previousViewController = self
