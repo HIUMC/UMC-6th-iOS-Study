@@ -15,6 +15,11 @@
 		5ECA35B12BC6308B00F44B08 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5ECA35B02BC6308B00F44B08 /* Base */; };
 		5ECA35B92BC63EA000F44B08 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECA35B82BC63EA000F44B08 /* LoginViewController.swift */; };
 		5ECA35DB2BC646E700F44B08 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECA35DA2BC646E700F44B08 /* RegisterViewController.swift */; };
+		5ECA35DF2BC665FC00F44B08 /* Color_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECA35DE2BC665FC00F44B08 /* Color_extension.swift */; };
+		5ECA35E12BC666DA00F44B08 /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECA35E02BC666DA00F44B08 /* UIView+extension.swift */; };
+		5ECA35E32BC6683300F44B08 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECA35E22BC6683300F44B08 /* UIViewController+Extension.swift */; };
+		5ECA35E52BC6735400F44B08 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECA35E42BC6735400F44B08 /* UserInfo.swift */; };
+		5ECA35E92BC6784500F44B08 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECA35E82BC6784500F44B08 /* testViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		5ECA35B22BC6308B00F44B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5ECA35B82BC63EA000F44B08 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5ECA35DA2BC646E700F44B08 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5ECA35DE2BC665FC00F44B08 /* Color_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_extension.swift; sourceTree = "<group>"; };
+		5ECA35E02BC666DA00F44B08 /* UIView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
+		5ECA35E22BC6683300F44B08 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		5ECA35E42BC6735400F44B08 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		5ECA35E82BC6784500F44B08 /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +74,11 @@
 				5ECA35A62BC6308A00F44B08 /* SceneDelegate.swift */,
 				5ECA35A82BC6308A00F44B08 /* ViewController.swift */,
 				5ECA35AA2BC6308A00F44B08 /* Main.storyboard */,
+				5ECA35E82BC6784500F44B08 /* testViewController.swift */,
+				5ECA35E42BC6735400F44B08 /* UserInfo.swift */,
+				5ECA35E02BC666DA00F44B08 /* UIView+extension.swift */,
+				5ECA35E22BC6683300F44B08 /* UIViewController+Extension.swift */,
+				5ECA35DE2BC665FC00F44B08 /* Color_extension.swift */,
 				5ECA35DA2BC646E700F44B08 /* RegisterViewController.swift */,
 				5ECA35B82BC63EA000F44B08 /* LoginViewController.swift */,
 				5ECA35AD2BC6308B00F44B08 /* Assets.xcassets */,
@@ -144,11 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ECA35E32BC6683300F44B08 /* UIViewController+Extension.swift in Sources */,
 				5ECA35B92BC63EA000F44B08 /* LoginViewController.swift in Sources */,
 				5ECA35DB2BC646E700F44B08 /* RegisterViewController.swift in Sources */,
 				5ECA35A92BC6308A00F44B08 /* ViewController.swift in Sources */,
+				5ECA35E12BC666DA00F44B08 /* UIView+extension.swift in Sources */,
 				5ECA35A52BC6308A00F44B08 /* AppDelegate.swift in Sources */,
 				5ECA35A72BC6308A00F44B08 /* SceneDelegate.swift in Sources */,
+				5ECA35E52BC6735400F44B08 /* UserInfo.swift in Sources */,
+				5ECA35E92BC6784500F44B08 /* testViewController.swift in Sources */,
+				5ECA35DF2BC665FC00F44B08 /* Color_extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
