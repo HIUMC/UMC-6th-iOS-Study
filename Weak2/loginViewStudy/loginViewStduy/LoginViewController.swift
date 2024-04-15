@@ -44,8 +44,7 @@ class LoginViewController: UIViewController {
             self.loginButton.backgroundColor = .disabledColor
             self.loginButton.isEnabled = false
         }
-        let vc = storyboard?.instantiateViewController(withIdentifier: "tabBarVC") as! UITabBarController
-        vc.modalPresentationStyle = .fullScreen
+        let vc = storyboard?.instantiateViewController(withIdentifier: "testViewController") as! testViewController
         self.present(vc, animated: true, completion: nil)
         
         
