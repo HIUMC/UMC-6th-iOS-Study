@@ -1,0 +1,6 @@
+module Pods_UIpractice______ {
+  umbrella header "Pods-UIpractice_문제-umbrella.h"
+
+  export *
+  module * { export * }
+}
